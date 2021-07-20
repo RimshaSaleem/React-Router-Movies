@@ -7,10 +7,13 @@ import App from './App';
 // You'll need to wrap <App /> for routing to work
 import { BrowserRouter as Router } from 'react-router-dom'
 
-render(
+
   // Wrap the <App /> in a provider
-  <Router>
+  
+ReactDOM.render(
+
+    <Router>
     <App />
   </Router>
-)
-ReactDOM.render(<App />, document.getElementById('root'));
+
+, document.getElementById('root'));
